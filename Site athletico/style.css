@@ -1,0 +1,91 @@
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+}
+
+*{
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+.navigation{
+    background-color: rgb(253, 253, 253);
+    list-style: none;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.Joaquim{
+   display: flex;
+   justify-content: space-between;
+}
+
+article{
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.Cor{
+    color: #ffffff;
+}
+
+.Text1{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.Jogos2{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-content: center;
+}
+
+
+.Dia{
+    padding: 10px;
+    justify-content: center;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+}
+
+aside{
+    background-color: violet;
+    padding: 10px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+figure{
+    background-color:lightgreen;
+    padding: 10px;
+    margin: 10px;
+    height: 25%;
+}
+
+details{
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px;
+    height: 25%;
+}
+
+footer{
+    background-color: aqua;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
