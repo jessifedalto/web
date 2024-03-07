@@ -1,0 +1,72 @@
+*{
+    font-family: DejaVu Sans Mono, monospace;
+    background-color: #000000;
+}
+
+.navigation{
+    border-bottom: #ffffff;
+    margin: auto;
+    list-style: none;
+    padding: 1px;
+    display: flex;
+    width: 98%;
+    justify-content: center;
+    gap: 100px;
+    color: aliceblue;
+    font-weight: 1000;
+    font-size: large;
+    padding: 10px;
+}
+
+.Home{
+    width: 100%;
+    height: 850px;
+    color: rgb(147, 241, 241);
+    font-size: large;
+    display: flex;
+    justify-content: center;
+}
+
+.textohome{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+.imagemhome{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+footer{
+    width: 98%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: auto;
+}
+
+.footertext{
+    margin: auto;
+    list-style: none;
+    padding: 1px;
+    display: flex;
+    width: 98%;
+    justify-content: center;
+    gap: 100px;
+    color: aliceblue;
+    font-weight: 1000;
+    font-size: large;
+    padding: 10px;
+}
