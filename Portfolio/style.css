@@ -3,25 +3,30 @@
     background-color: #000000;
 }
 
-.navigation{
+#navigation{
     border-bottom: #ffffff;
     margin: auto;
     list-style: none;
-    padding: 1px;
+    padding: 10px;
     display: flex;
     width: 98%;
     justify-content: center;
     gap: 100px;
-    color: aliceblue;
+    color: rgb(15, 245, 253);
     font-weight: 1000;
     font-size: large;
     padding: 10px;
+    align-items: center;
+}
+
+#navigation li:hover {
+    color: white;
 }
 
 .Home{
     width: 100%;
     height: 850px;
-    color: rgb(147, 241, 241);
+    color: #93f1f1;
     font-size: large;
     display: flex;
     justify-content: center;
@@ -32,6 +37,7 @@
     justify-content: center;
     width: 50%;
     margin: auto;
+    text-align: center;
 }
 
 .imagemhome{
@@ -41,12 +47,67 @@
     margin: auto;
 }
 
+h2{
+    color: #bf5ef7;
+    margin: auto;
+    padding-left: 40px;
+}
+
+h4{
+    color: #bf5ef7;
+    margin: auto;
+    padding-left: 40px;
+}
+
+h5{
+    font-size: large;
+    color: #e1acff;
+}
+
+.Sobre_mim{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color: #93f1f1;
+    font-size: large;
+ }
+
+ .Formacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    color: #93f1f1;
+    font-size: large;
+ }
+
+ .Tecnico{
+    list-style: none;
+ }
+
+ .Graduacao{
+    list-style: none;
+ }
+
+ .Projetos{
+    list-style: none;
+ }
+
+ .Feira{
+    border-bottom-left-radius: 100px;  
+ }
+
 footer{
-    width: 98%;
+    width: 95%;
     height: 100px;
     margin: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin-top: 18px;
 }
 
 .contact{
@@ -63,10 +124,27 @@ footer{
     padding: 1px;
     display: flex;
     width: 98%;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 100px;
     color: aliceblue;
     font-weight: 1000;
     font-size: large;
     padding: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,9,121,1) 14%, rgba(0,212,255,1) 100%);
+}
+
+::-webkit-scrollbar-thumb {
+    background: lime;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    box-shadow: 0px 0px 0px 100000vh rgb(43, 42, 42);
 }
