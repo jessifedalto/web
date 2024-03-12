@@ -1,29 +1,49 @@
-*{
+* {
     font-family: DejaVu Sans Mono, monospace;
     background-color: #000000;
+    margin: 0;
+    padding: 0;
 }
 
-#navigation{
+html{
+    scroll-behavior: smooth;
+}
+
+#navigation {
     border-bottom: #ffffff;
-    margin: auto;
+    margin: 0%;
     list-style: none;
     padding: 10px;
     display: flex;
-    width: 98%;
+    width: 100%;
     justify-content: center;
     gap: 100px;
-    color: rgb(15, 245, 253);
     font-weight: 1000;
     font-size: large;
-    padding: 10px;
     align-items: center;
+    position: fixed;
+    text-decoration: none;
+    height: 10vh;
 }
 
-#navigation li:hover {
-    color: white;
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
 }
 
-.Home{
+a{
+    color: #28cff8;
+}
+
+#Home {
+    align-content: baseline;
+    color: #000000;
+}
+
+.Home {
     width: 100%;
     height: 850px;
     color: #93f1f1;
@@ -32,49 +52,67 @@
     justify-content: center;
 }
 
-.textohome{
+.textohome {
     display: flex;
     justify-content: center;
     width: 50%;
     margin: auto;
     text-align: center;
+    margin-left: 25px;
 }
 
-.imagemhome{
+.imagemhome {
     display: flex;
     justify-content: center;
     width: 50%;
     margin: auto;
 }
 
-h2{
+h2 {
+    color: #bf5ef7;
+    margin: auto;
+    margin-left: 80px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    justify-items: flex-start;
+}
+
+h4 {
     color: #bf5ef7;
     margin: auto;
     padding-left: 40px;
 }
 
-h4{
-    color: #bf5ef7;
-    margin: auto;
-    padding-left: 40px;
-}
-
-h5{
+h5 {
     font-size: large;
     color: #e1acff;
 }
 
-.Sobre_mim{
+h6 {
+    color: #bf5ef7;
+    margin: auto;
+    font-size: 25px;
+}
+
+.Sobre_mim {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     text-align: center;
-    margin: auto;
     color: #93f1f1;
     font-size: large;
- }
+    margin-right: 10px;
+}
 
- .Formacao{
+#Formacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.Formacao {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,35 +120,104 @@ h5{
     text-align: center;
     color: #93f1f1;
     font-size: large;
- }
+    margin: 10px auto;
+}
 
- .Tecnico{
+.Tecnico {
     list-style: none;
- }
+    color: #93f1f1;
+}
 
- .Graduacao{
+.Graduacao {
     list-style: none;
- }
+    color: #93f1f1;
+}
 
- .Projetos{
+.Projetos {
     list-style: none;
- }
+    color: #93f1f1;
+}
 
- .Feira{
-    border-bottom-left-radius: 100px;  
- }
+.Feira {
+    border-bottom-left-radius: 100px;
+    margin-right: 10px;
+}
 
-footer{
+#Projects {
+    color: #93f1f1;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Francesco {
+    text-align: center;
+    color: #e693f1;
+    font-size: large;
+}
+
+.Estrutura {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #93f1f1;
+    font-size: large;
+}
+
+footer {
     width: 95%;
     height: 100px;
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-top: 18px;
+    align-items: center;
 }
 
-.contact{
+.Contacts {
+    text-align: center;
+    color: #e693f1;
+    font-size: large;
+}
+
+#Contato {
+    color: #bf5ef7;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Assunto {
+    color: #e693f1;
+}
+
+label {
+    color: #28cff8;
+    margin-left: 30px;
+    font-size: large;
+}
+
+#email {
+    color: #e693f1;
+}
+
+#Enviar {
+    color: #28cff8;
+}
+
+#Reset {
+    color: #28cff8;
+}
+
+.links {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -118,33 +225,207 @@ footer{
     margin: auto;
 }
 
-.footertext{
-    margin: auto;
-    list-style: none;
-    padding: 1px;
-    display: flex;
-    width: 98%;
-    justify-content: flex-start;
-    gap: 100px;
-    color: aliceblue;
-    font-weight: 1000;
-    font-size: large;
-    padding: 10px;
-}
-
 ::-webkit-scrollbar {
     width: 20px;
 }
 
 ::-webkit-scrollbar-track {
-    background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,9,121,1) 14%, rgba(0,212,255,1) 100%);
-}
-
-::-webkit-scrollbar-thumb {
-    background: lime;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(97, 9, 121, 1) 14%, rgba(0, 212, 255, 1) 100%);
 }
 
 ::-webkit-scrollbar-thumb {
     background: transparent;
     box-shadow: 0px 0px 0px 100000vh rgb(43, 42, 42);
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    #navigation {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .opcao {
+        font-size: 15px;
+        width: 100%;
+        width: 10%;
+        text-align: center;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .Formacao {
+        margin-left: 10px;
+    }
+
+    .Graduacao {
+        font-size: medium;
+    }
+
+    .Projetos {
+        font-size: medium;
+    }
+
+    .Tecnico {
+        font-size: medium;
+    }
+
+    .Estrutura {
+        font-size: medium;
+        margin-left: 10px;
+    }
+
+    .Francesco {
+        font-size: 15px;
+    }
+
+    .Sobre_mim {
+        font-size: medium;
+    }
+
+    h3 {
+        font-size: large;
+    }
+
+    #Projects{
+        height: auto;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    #navigation {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .opcao {
+        font-size: 20px;
+        width: 100%;
+        width: 10%;
+        text-align: center;
+    }
+
+    .logo {
+        width: 80%;
+    }
+
+    .Formacao {
+        margin-left: 10px;
+    }
+
+    .Graduacao {
+        font-size: large;
+    }
+
+    .Projetos {
+        font-size: large;
+    }
+
+    .Tecnico {
+        font-size: large;
+    }
+
+    .Estrutura {
+        font-size: large;
+    }
+
+    .Francesco {
+        font-size: 20px;
+    }
+
+    .Sobre_mim {
+        font-size: large;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .imagemhome{
+        width: 80%;
+        height: auto;
+    }
+   
+  }
+
+  @media (min-width: 1200px) {
+    #navigation {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .opcao {
+        font-size: 20px;
+        width: 100%;
+        width: 10%;
+        text-align: center;
+    }
+
+    .logo {
+        width: 80%;
+    }
+
+    #Projects {
+        font-size: larger;
+    }
+
+    .Formacao {
+        margin-left: 10px;
+    }
+
+    .Graduacao {
+        font-size: larger;
+    }
+
+    .Projetos {
+        font-size: larger;
+    }
+
+    .Tecnico {
+        font-size: larger;
+    }
+
+    .Estrutura {
+        font-size: larger;
+        margin-left: 10px;
+    }
+
+    .Francesco {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    .Sobre_mim {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .imagemhome{
+        width: 80%;
+        height: auto;
+    }
+
+    h5 {
+        font-size: larger;
+        color: #e1acff;
+    }
+
+    .titulo{
+        font-size: x-large;
+    }
+  }
